@@ -1,0 +1,21 @@
+/*Linha abaixo aplica um reset removendo todos os padding e margin do body*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    color: white;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+p{
+    color: white;
+}
