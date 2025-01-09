@@ -15,6 +15,27 @@ body {
     background-color: black;
     color: white;
     
+    
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    
+}
+.cabecalho__menu__link {
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+
+
 }
 
 .apresentacao {
