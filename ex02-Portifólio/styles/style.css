@@ -55,6 +55,7 @@ body {
     display: flex; /* or inline-flex */
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -143,5 +144,12 @@ body {
     color: var(--cor--primaria) ;
     background-color: var(--cor-terciaria) ;
     padding: 24px;
+
+}
+
+@media(max-width: 1200px) {
+    .apresentacao{
+        flex-direction: column-reverse ;
+    }
 
 }
