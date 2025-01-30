@@ -24,8 +24,8 @@ body {
     background-image: url(assets/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-
-
+    align-items: center;
+    text-align: center;
 }
 
 .container__caixa{
@@ -73,5 +73,38 @@ body {
      
 }
 
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+
+}
+
+.descricao__texto {
+    font-size: 16px;
+    color: var(--cenza-secundario);
+
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
+.container__descricao {
+    padding: 2em;
+
+}
 
 
