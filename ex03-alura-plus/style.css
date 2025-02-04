@@ -128,6 +128,44 @@ body {
     color: var(--branco-principal)
 }
 
+.rodape {
+    text-align: center;
+    
+    
+
+}
+
+.rodape__logo {
+
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    gap: 10px;
+}
+
+.lista__link a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--branco-principal);
+
+}
+
+.lista__link a:hover {
+    color: var(--cenza-secundario);
+}
+
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cenza-secundario);
+    margin-bottom: 2em;
+    
+}
+
 
 
 
