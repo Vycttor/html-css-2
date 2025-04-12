@@ -50,61 +50,102 @@
       </section>
 
       <section class="carrossel">
+            <!--Titulo-->
             <h2 class="carrossel__titulo">Novos Lançamentos</h2>
 
-             
+            <!-- Slider main container -->
+            <div class="swiper">
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/Angular.png" alt="Livro Sobre FrameWork"></div>
+                        <div class="swiper-slide"><img src="assets/Arquitetura.png" alt="Livro Sobre Arquitetura de Computadores"></div>
+                        <div class="swiper-slide"><img src="assets/Javascript.png" alt="Livro Sobre Programação Em JavaScript"></div>
+                        <div class="swiper-slide"><img src="assets/Liderança.png" alt="Livro Sobre Liderança em Negocios"></div>
+                        <div class="swiper-slide"><img src="assets/MetricasAgeis.png" alt="Livro Sobre Métricas Ageis"></div>
+                  </div>
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                  <!--1º linha-->
+                  <div class="card__descrição">
+                        <!---1ª Coluna-->
+                        <div class="descrição">
+                              <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                              <h2 class="descricação__titulo-livo">Angula 11 e Firebase</h2>
+                              <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                        </div>
+                        <!--2ª Coluna--->
+                        <img src="assets/Angular1.png" alt="Logo do Framework Angula">
+                  </div>
+
+                  <!--2º linha-->
+                  <div class="card__botões">
+                        <!---1ª Coluna-->
+                        <ul class="botões">
+                              <li class="botões__item"><img src="assets/Favoritos.png" alt="Icone de Favoritar"></li>
+                              <li class="botões__item"><img src="assets/Compras.png" alt="Icone de Comprar"></li>
+                        </ul>
+                        <!--2ª Coluna-->
+                        <a href="#" class="botões__ancora">Saiba mais</a>
+                  </div>
+            </div>
+      </section>
+
+      <!--Mais vendidos, Swiper-Pagination, Info Sobre a Autora...-->
+      <section>
+            <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
             <!-- Slider main container -->
-      <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="assets/Angular.png" alt="Livro Sobre FrameWork"></div>
-            <div class="swiper-slide"><img src="assets/Arquitetura.png" alt="Livro Sobre Arquitetura de Computadores"></div>
-            <div class="swiper-slide"><img src="assets/Javascript.png" alt="Livro Sobre Programação Em JavaScript"></div>
-            <div class="swiper-slide"><img src="assets/Liderança.png" alt="Livro Sobre Liderança em Negocios"></div>
-            <div class="swiper-slide"><img src="assets/MetricasAgeis.png" alt="Livro Sobre Métricas Ageis"></div>
+            <div class="swiper">
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
 
-            
-            </div>
-           
-      
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-      
-            
-      </div>
-
-      <div class="card">
-            <!--1º linha-->
-            <div class="card__descrição">
-                  <!---1ª Coluna-->
-                  <div class="descrição">
-                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
-                        <h2 class="descricação__titulo-livo">Angula 11 e Firebase</h2>
-                        <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/Guia Front-end.png" alt="Livro Sobre Front_End"></div>
+                        <div class="swiper-slide"><img src="assets/Angular.png" alt="Livro Sobre o FrameWork Angula"></div>
+                        <div class="swiper-slide"><img src="assets/Arquitetura.png" alt="Livro Sobre Arquitetura de Computadores"></div>
+                        <div class="swiper-slide"><img src="assets/Javascript.png" alt="Livro de Linguagem de Programação JavaScript"></div>
+                        <div class="swiper-slide"><img src="assets/Gestão.png" alt="Livro de Sobre Gestão de Negocios"></div>
                   </div>
-                  <!--2ª Coluna--->
-                  <img src="assets/Angular1.png" alt="Logo do Framework Angula">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
             </div>
 
-            <!--2º linha-->
-            <div class="card__botões">
-                  <!---1ª Coluna-->
-                  <ul class="botões">
-                        <li class="botões__item"><img src="assets/Favoritos.png" alt="Icone de Favoritar"></li>
-                        <li class="botões__item"><img src="assets/Compras.png" alt="Icone de Comprar"></li>
-                  </ul>
-                  <!--2ª Coluna-->
-                  <a href="#" class="botões__ancora">Saiba mais</a>
+            <div class="card">
+                  <!--Linha-->
+                  <div class="card__descrição">
+                        <!---1ª Coluna-->
+                        <div class="descrição">
+                              <img class="estrela__5" src="assets/Estrelinhas.png" alt="Estrelinhas de Avaliação 5">
+                              <h3 class="descrição__titulo">Autora do Mês</h3>
+                              <h2 class="descricação__titulo-livo">Juliana Agarikov</h2>
+                              <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End</p>
+                        </div>
+
+                        <!--2ª Coluna--->
+                        <img src="assets/Perfil-escritora 1.png" alt="Foto da Escritora">
+                  </div>
+
+                  <!--2ª Linha-->
+                  <div class="card__botões">
+                        <!---1ª Coluna-->
+                        <ul class="botões">
+                              <li class="botões__item"><img src="assets/Favoritos.png" alt="Icone de Favoritar"></li>
+                              <li class="botões__item"><img src="assets/Compras.png" alt="Icone de Comprar"></li>
+                        </ul>
+                        <!--2ª Coluna-->
+                        <a href="#" class="botões__ancora">Saiba Mais</a>
+                  </div>
             </div>
-
-      </div>
-
-            
 
       </section>
       
