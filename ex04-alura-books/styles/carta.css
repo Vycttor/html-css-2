@@ -1,0 +1,44 @@
+.carta {
+    background: var(--branco);
+    width: 100%;
+    padding: 1em;
+   
+    
+    
+}
+
+.carta__titulo {
+    color: var(--azul);
+    font-size: 18px;
+    margin: 1em 0;    
+}
+    
+
+
+.carta__texto {
+    font-size:  16px;
+    font-weight: lighter;
+    
+}
+
+.carta__email {
+    background-color: transparent;
+    border: 1px solid black;
+    color: var(--azul);
+    font-size: 16px;
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+    margin: 2em 0;
+}
+
+.carta__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul);
+    background: url("../assets/Email.png") no-repeat;
+    background-position: 0.5em;
+
+}
