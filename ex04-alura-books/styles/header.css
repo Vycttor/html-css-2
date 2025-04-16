@@ -41,6 +41,7 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+
 }
 
 .lista-menu__titulo {
@@ -49,7 +50,7 @@
 }
 
 .lista-menu__link{
-    background: var(--auzul-degrade);
+    background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -117,6 +118,15 @@
     .cabecalho__menu-hamburger {
         display: none;
     
+    }
+
+    .opções__botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão {
+        display: none;
     }
 
 
