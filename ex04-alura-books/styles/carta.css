@@ -42,3 +42,24 @@
     background-position: 0.5em;
 
 }
+
+@media screen and (min-width: 1024px) {
+    .carta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carta__descricao {
+        margin-right: 1em;
+        width: 30%;
+        
+    }
+
+    .carta__titulo {
+        font-size: 24px;
+    }
+
+    .carta__email {
+        width: 30%;
+    }
+}
