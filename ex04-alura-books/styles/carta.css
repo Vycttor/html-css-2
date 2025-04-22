@@ -63,3 +63,25 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carta {
+        padding: 5em 0;
+
+    }
+    .carta__titulo{
+        font-size: 30px;
+        
+
+    }
+    .carta__texto {
+         width: 60%;
+    }
+
+    .carta__email {
+       width:  15%;
+       
+    }
+
+
+}
