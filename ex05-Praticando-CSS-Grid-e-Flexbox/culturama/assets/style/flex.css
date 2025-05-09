@@ -40,6 +40,46 @@
     max-width: 400px;
 }
 
+.fathe__of__agenda {
+    display: flex;
+    
+}
+
+.agenda__informacoes {
+    width: 50%;
+    padding: 0 5px;
+    justify-content: center;
+  
+}
+
+
+.agenda__informacoes h3 {
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+}
+
+.agenda__informacoes h4, h5 {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.agenda__atracao {
+    width: 50%;
+    
+
+}
+.agenda__atracao h6 {
+    font-family: var(--fonte-primaria);
+    font-size: 18pt;
+
+}
+
+.agenda__botao {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;    
+
+}
 
 
 @media (min-width: 720px){
@@ -57,6 +97,24 @@
     .eventos__lista {
         justify-content: end;
     }
+
+    .agenda__lista {
+        display: flex;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .agenda__informacoes {
+        padding: 0px 0px 35px 0px;
+    }
+
+    .agenda__botao {
+        display: flex;
+        width: 100%;
+        justify-content: end;    
+    }
+    
 
 }
 
