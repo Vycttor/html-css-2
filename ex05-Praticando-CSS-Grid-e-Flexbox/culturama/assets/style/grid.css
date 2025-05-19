@@ -62,10 +62,10 @@
     grid-template-columns: 1fr 1fr;
     
 }
-/*
+
 .agenda__botao {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "clumn_1 column_2";
@@ -75,7 +75,7 @@
     margin-left: 0.7rem;
 }
 
-*/
+
 /*Fim agenda*/
 
 
@@ -98,4 +98,36 @@
         grid-column: 3/4;
         grid-row: 1/3;
     }
+}
+
+@media (min-width: 1440px) {
+
+    .categorias {
+        display: grid;
+        column-gap:  1.5rem;
+        row-gap: 1rem;
+        grid-template-columns:  1fr 1fr;
+        grid-template-areas: 
+        "categoria categoria"
+        "listas_categoria destaque_titulo"
+        "listas_categoria img_destaque";
+    }
+
+    .categorias h2 {
+        grid-area: categoria;
+    }
+
+    .categorias__lista {
+        grid-area: listas_categoria;
+    }
+
+    .categorias__destaques {
+        grid-area: destaque_titulo;
+    }
+
+    .categorias__imagem {
+        grid-area: img_destaque;
+        /* justify-self: end; */
+    }
+
 }
