@@ -8,6 +8,7 @@
 }
 
 /* Categorias */
+
 .categorias__lista {
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@
 }
 
 /* Destaques */
+
 .destaques {
     display: flex;
     align-items: center;
@@ -27,6 +29,7 @@
 }
 
 /* Eventos */
+
 .eventos__lista {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +43,9 @@
     max-width: 400px;
 }
 
-.fathe__of__agenda {
+/*Agenda*/
+/*
+.father__of__agenda {
     display: flex;
     
 }
@@ -80,6 +85,9 @@
     justify-content: center;    
 
 }
+    */
+    
+    
 
 
 @media (min-width: 720px){
@@ -184,7 +192,7 @@
         
     }
 
-    .fathe__of__agenda {
+    .father__of__agenda {
         display: block;
     
     }

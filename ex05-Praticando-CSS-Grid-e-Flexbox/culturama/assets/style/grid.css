@@ -15,15 +15,71 @@
     grid-row: 2/4
 }
 
+
+
+
 .eventos__item {
     display: grid;
-    grid-template-areas: 
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto ;
+    grid-template-areas:
     "imagem imagem"
-    "nome nome"
+    "nome nome" 
     "data data"
     "local botao";
+   
 
 }
+
+.eventos__item img {
+    grid-area: imagem;
+}
+.eventos__item h3 {
+    grid-area: nome;
+    align-self: center;
+}
+
+.eventos__item h4 {
+    grid-area: data;
+}
+
+.eventos__item h5 {
+    grid-area: local;
+    align-self: end;
+}
+
+.eventos__item button {
+    grid-area: botao;
+    
+    
+}
+    
+
+/*Agenda*/
+
+.father__of__agenda { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+/*
+.agenda__botao {
+    display: grid;
+    width: 100%;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "clumn_1 column_2";
+    
+}.agenda__botao, button{
+    grid-area: column_2;
+    margin-left: 0.7rem;
+}
+
+*/
+/*Fim agenda*/
+
+
+
 
 @media (min-width: 720px) {
 
