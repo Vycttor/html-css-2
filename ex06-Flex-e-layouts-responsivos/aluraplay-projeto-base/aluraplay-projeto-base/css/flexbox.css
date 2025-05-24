@@ -1,1 +1,48 @@
+/*Cabeçalho*/
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
 
+}
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
+/*Seção Superior*/
+
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*Os textos dentro de uma tag não quebram linha*/
+    overflow: scroll;
+   gap: 15px;
+
+}
+/*Rodapé*/
+
+.rodape__container {
+    display: flex;
+
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    flex-flow: column wrap; /*Flex-flow is a shorthand to flex-direction and fle-wrap, flex-flow delivery the same result*/
+
+}
+
+
+@media (min-width: 834px){
+    /* Cabeçaçho */
+    .cabecalho__pesquisar__item {
+    display: block;
+    }
+
+    /* Rodapé */
+    .rodape__container {
+        justify-content: space-between;
+    }
+
+}
