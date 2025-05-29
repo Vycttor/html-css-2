@@ -11,6 +11,33 @@
 .cabecalho__pesquisar__item {
     display: none;
 }
+
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+
+}
+
+/*Menu*/
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+    /*Permite alinhar intens especificos nesse caso um li, ou flex item*/
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
 /*Seção Superior*/
 
 .superior__secao__container{
